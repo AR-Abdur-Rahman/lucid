@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a, p{
+    margin: 0;
+
+    padding: 0;
+}
+
+.header_section{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-link{
+    color: #fff;
+    position: relative;
+    padding: 0 !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-link:hover{
+    color: #fff;
+}
+
+.nav-link::before{
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    background-color: #008ed6;
+
+    transition: .4s all ease-in-out;
+
+    width: 0%;
+    
+    height: 2px;
+}
+
+.nav-link::after{
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+
+    right: 0;
+
+    background-color: #008ed6;
+
+    transition: .4s all ease-in-out;
+
+    width: 0%;
+
+    height: 2px;
+}
+
+.nav-link:hover::before{
+    width: 48%;
+}
+
+.nav-link:hover::after{
+    width: 48%;
+}
+
+.nav-item{
+    margin-right: 15px;
+}
+
+.height{
+
+min-height: 90vh;
+
+align-items: center;
+}
+
+.feature_contant{
+
+}
+
+.feature_contant h5{
+
+color: #008ed6;
+
+font-size: 16px;
+
+text-transform: uppercase;
+
+margin-bottom: 20px;
+}
+
+.feature_contant h1{
+
+color: #fff;
+
+font-size: 40px;
+
+margin-bottom: 20px;
+}
+
+.feature_contant p{
+
+color: #fff;
+
+font-size: 20px;
+
+margin-bottom: 20px;
+}
+
+.btn_downlad{
+
+border: 1px solid #008ed6;
+
+padding: 10px 22px;
+
+color: #fff;
+
+text-transform: uppercase;
+
+letter-spacing: 1px;
+
+background: #008ed6;
+}
+
+.btn_downlad:hover{
+    background: transparent;
+
+    color: #fff;
+
+    border: 1px solid #999;
+
+    transition: .4s all ease-in-out;
+}
+
+a.btn.view_features {
+    border: 1px solid #999;
+
+    padding: 10px 22px;
+
+    color: #fff;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    background: transparent;
+
+    transition: .4s all ease-in-out;
+
+    margin-left: 10px;
+}
+
+a.btn.view_features:hover{
+    background-color: #008ed6;
+
+    color: #fff;
+
+    border-color: #008ed6;
+}
+.image{
+
+position: absolute;
+
+bottom: 0;
+
+width: 40%;
+}
+
+/* header end */
+
+
+/* prodact_section start */
+
+.prodact_section{
+    
+padding: 70px 0;
+}
+
+.heading{
+    
+text-align: center;
+    
+margin-bottom: 35px;
+}
+
+.heading h5{
+
+color: #008ed6;
+
+text-transform: uppercase;
+
+font-size: 19px;
+
+letter-spacing: 2px;
+}
+
+.heading h1{
+
+font-size: 31px;
+
+margin-bottom: 23px;
+}
+
+.heading span{
+
+display: block;
+
+width: 30px;
+
+height: 2px;
+
+position: relative;
+
+margin: auto;
+}
+
+.heading span::before{
+    position: absolute;
+
+    content: "";
+
+    width: 0%;
+
+    height: 100%;
+
+    top: 0;
+
+    left: 0;
+
+    background-color: #008ed6;
+    
+    transition: .4s all ease-in-out;
+
+}
+
+.heading span::after{
+    position: absolute;
+
+    content: "";
+
+    width: 0%;
+
+    height: 100%;
+
+    top: 0;
+
+    right: 0;
+
+    background-color: #008ed6;
+
+    transition: .4s all ease-in-out;
+
+}
+
+.prodact_section:hover .heading span::before{
+    width: 48%;
+}
+
+.prodact_section:hover .heading span::after{
+    width: 48%;
+}
+.icon_section{
+
+text-align: center;
+}
+
+.icon_section h5{
+
+margin: 20px 0;
+
+font-size: 24px;
+}
+
+.icon_section p{
+
+font-size: 14px;
+
+font-weight: 400;
+}
+
+.icon_box{
+
+width: 55px;
+
+height: 55px;
+
+border: 1px solid #008ed6;
+
+border-radius: 50px;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+margin: auto;
+
+color: #008ed6;
+
+margin-bottom: 35px;
+}
+
+.icon_box i{
+}
+
+/* prodact_section end */
+
+/* feature_section start */
+
+.feature_section{
+    padding: 60px 0;
+}
+
+.image_box{
+
+}
+
+.feature_section .heading h1{
+
+font-size: 30px;
+}
+
+.feature_section .heading h5{
+
+font-size: 16px;
+
+margin-bottom: 20px;
+}
+
+.feature_section .heading p{
+
+}
+
+.feature_section .heading span{
+    margin-left: 0;
+}
+
+.feature_section:hover .heading span::before{
+    width: 48%;
+
+}
+
+.feature_section:hover .heading span::after{
+    width: 48%;
+
+}
+
+.feature_section p{
+
+margin-bottom: 30px;
+
+color: #9f9d9d;
+}
+
+.feature_section ul{
+
+    list-style: none;
+}
+
+.feature_section ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon_list{
+
+width: 22px;
+
+text-align: center;
+
+margin-right: 5px;
+
+color: #008ed7;
+}
+
+/* feature_section end */
+
+/* details_section start */
+
+.details_section{
+
+padding: 60px 0;
+
+background: #f2f2f2;
+}
+
+.details_section p{
+    font-size: 18px;
+
+    color: #9f9d9d;
+}
+
+.details_section .heading h5{
+
+    font-size: 14px;
+}
+
+.details_section .heading h1{
+
+    font-size: 26px;
+
+    font-weight: 500;
+
+    margin-top: 20px;
+}
+
+.details_section .heading span{
+    margin-left: 0;
+}
+
+.details_section:hover .heading span::before{
+    width: 48%;
+}
+
+.details_section:hover .heading span::after{
+    width: 48%;
+}
+
+/* details_section end */
+
+/* Pricings_section start */
+
+.Pricings_section{
+    background-image: url(../images/lucid_.png);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    padding: 60px 0;
+}
+
+.Pricings_section .heading h5{
+
+font-size: 15px;
+
+margin-bottom: 10px;
+}
+
+.Pricings_section .heading h1{
+
+color: #fff;
+
+font-size: 38px;
+}
+
+.Pricings_section:hover .heading span::before{
+    width: 48%;
+}
+
+.Pricings_section:hover .heading span::after{
+    width: 48%;
+}
+
+.Pricings_section p{
+
+color: #fff;
+
+margin-bottom: 30px;
+}
+
+.client_ifo{display: flex;align-items: center;}
+
+.client_pic{
+
+}
+
+.client_pic img{
+
+    width: 38px;
+}
+
+.client_bio{
+
+    margin-left: 10px;
+}
+
+.client_bio p{
+
+    margin: auto;
+
+    text-transform: capitalize;
+}
+
+.client_bio h5{
+
+    color: #fff;
+
+    font-size: 12px;
+
+    margin: 5px 0;
+}
+
+.owl-dots{
+    display: flex;
+
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.owl-dots .owl-dot span{
+    display: block;
+
+    width: 6px;
+
+    height: 6px;
+
+    border: 1px solid #999;
+
+    border-radius: 50px;
+
+    margin: 3px;
+}
+
+.owl-dots .owl-dot.active span{
+
+    border: 1px solid #fff;
+
+    background-color: #fff;
+
+    width: 10px;
+
+    height: 10px;
+}
+
+/* Pricings_section end*/
